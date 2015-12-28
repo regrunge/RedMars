@@ -1,0 +1,13 @@
+Documentation
+<div class="list-group">
+    {% for link in pmenu %}
+        <a class="list-group-item {{ link.active ? 'active' : '' }}" href="{{ link.url }}" target="_blank">{{ link.desc }}</a>
+    {% endfor %}
+</div>
+
+Installation
+<div class="list-group">
+    {% for link in smenu %}
+        <a class="list-group-item {{ link.active ? 'active' : '' }}" href="{{ link.url }}" target="_blank">{{ link.desc }}</a>
+    {% endfor %}
+</div>

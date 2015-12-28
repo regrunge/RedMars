@@ -1,7 +1,7 @@
 <?php
 
-/* base/stylesheets.twig */
-class __TwigTemplate_5abb6c04004f582cb44f2eda3fc08769cc9e594c93b6777c59160d181b8f42ad extends Twig_Template
+/* base/components/stylesheets.twig */
+class __TwigTemplate_c92029e669770eb538f8b935fb160239fe78fca7262788610ca04d78ce30ff5f extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -35,13 +35,7 @@ class __TwigTemplate_5abb6c04004f582cb44f2eda3fc08769cc9e594c93b6777c59160d181b8
 
     <!-- CUSTOM CSS below this line -->
     <style type=\"text/css\">
-        body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-        }
-        .sidebar-nav {
-            padding: 9px 0;
-        }
+
     </style>
 
 ";
@@ -49,7 +43,7 @@ class __TwigTemplate_5abb6c04004f582cb44f2eda3fc08769cc9e594c93b6777c59160d181b8
 
     public function getTemplateName()
     {
-        return "base/stylesheets.twig";
+        return "base/components/stylesheets.twig";
     }
 
     public function getDebugInfo()
@@ -64,13 +58,7 @@ class __TwigTemplate_5abb6c04004f582cb44f2eda3fc08769cc9e594c93b6777c59160d181b8
 /* */
 /*     <!-- CUSTOM CSS below this line -->*/
 /*     <style type="text/css">*/
-/*         body {*/
-/*             padding-top: 60px;*/
-/*             padding-bottom: 40px;*/
-/*         }*/
-/*         .sidebar-nav {*/
-/*             padding: 9px 0;*/
-/*         }*/
+/* */
 /*     </style>*/
 /* */
 /* {% endblock stylesheets %}*/

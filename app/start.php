@@ -43,11 +43,13 @@ $resourceUri = $_SERVER['REQUEST_URI'];
 $rootUri = $app->request()->getRootUri();
 $assetUri = $rootUri;
 $app->view()->appendData(
-		array(		'app' => $app,
-				'rootUri' => $rootUri,
-				'assetUri' => $assetUri,
-				'resourceUri' => $resourceUri
-));
+    array(
+        'app' => $app,
+        'rootUri' => $rootUri,
+        'assetUri' => $assetUri,
+        'resourceUri' => $resourceUri
+    )
+);
 
 foreach(glob(ROOT . '/app/controllers/*.php') as $router) {
 	include $router;

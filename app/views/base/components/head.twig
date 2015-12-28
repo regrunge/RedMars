@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<title>{{ appPage.title  }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ appPage.description }}">
+<meta name="keywords" content="{{ appPage.keywords }}">
+<meta name="author" content="{{ appPage.author }}">
+
+<!-- CSS styles -->
+{% include "base/components/stylesheets.twig" %}
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- icons for mobile -->
+<!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+<!--[if IE]><link rel="shortcut icon" href="{{ assetUri }}/images/sys/favicon.ico"><![endif]-->
+
+<!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
+<link rel="apple-touch-icon-precomposed" href="{{ assetUri }}/images/sys/apple-touch-icon-precomposed.png">
+
+<!-- Firefox, Chrome, Safari, IE 11+ and Opera. 196x196 pixels in size. -->
+<link rel="icon" href="{{ assetUri }}/images/sys/favicon.png">

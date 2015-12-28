@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ALL head info have been moved in head.twig -->
+        {% include "base/components/head.twig" %}
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- the NAVBAR have been moved in navbar.twig -->
+            {% include "base/components/navbar.twig" %}
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <!-- the SIDEBAR have been moved in sidebar.twig -->
+                    {% include "base/components/sidebar.twig" %}
+                </div>
+                <div class="col-lg-8">
+                    <!-- this is the central content overwrite it extending this template -->
+                    {% block content %}
+
+                    {% endblock content %}
+                </div>
+            </div>
+            <div class="row">
+                {% include "base/components/footer.twig" %}
+            </div>
+        </div>
+        <!-- JavaScript at the end, to speed up loading -->
+        {% include "base/components/javascripts.twig" %}
+
+    </body>
+</html>

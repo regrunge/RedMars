@@ -32,10 +32,10 @@ class Twig_Tests_FileExtensionEscapingStrategyTest extends PHPUnit_Framework_Tes
 
             // css
             array('css', 'foo.css'),
-            array('css', 'foo.css.twig'),
+            array('css', 'foo.customcss.twig'),
             array('css', 'foo.twig.css'),
             array('css', 'foo.js.css'),
-            array('css', 'foo.js.css.twig'),
+            array('css', 'foo.js.customcss.twig'),
 
             // js
             array('js', 'foo.js'),
