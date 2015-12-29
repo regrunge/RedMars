@@ -1,1 +1,7 @@
 console.log("jQuery is ready, sir.");
+// initialise summernote:
+$('#summernote').summernote({height:300});
+$('#summernoteSubmit').on('click', function(){
+    var text = $('#summernote').summernote('code');
+    $('#preview').html(text);
+});

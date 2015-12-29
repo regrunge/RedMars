@@ -28,7 +28,7 @@ class __TwigTemplate_ffeda53df74ff90f5f9ed054edfdc1f574f8cb9f019f5709a0dcd54ed7d
         // line 3
         echo twig_escape_filter($this->env, (isset($context["assetUri"]) ? $context["assetUri"] : null), "html", null, true);
         echo "/js/bootstrap.min.js\"></script>
-
+    <script src=\"http://cdnjs.cloudflare.com/ajax/libs/summernote/0.7.0/summernote.js\"></script>
     <!-- CUSTOM jQuery with no Conflict wrap -->
     <script type=\"text/javascript\">
         jQuery(function(\$) {
@@ -54,7 +54,7 @@ class __TwigTemplate_ffeda53df74ff90f5f9ed054edfdc1f574f8cb9f019f5709a0dcd54ed7d
 /* {% block javascripts %}*/
 /*     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>*/
 /*     <script src="{{ assetUri }}/js/bootstrap.min.js"></script>*/
-/* */
+/*     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.7.0/summernote.js"></script>*/
 /*     <!-- CUSTOM jQuery with no Conflict wrap -->*/
 /*     <script type="text/javascript">*/
 /*         jQuery(function($) {*/

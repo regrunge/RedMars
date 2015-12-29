@@ -45,9 +45,15 @@ class __TwigTemplate_4d8c2653fb1bda2c42eff84a9d10d5b169ddde231ef4634d19e58b64938
             <li>it handles database ORM with RedBeanPHP,</li>
             <li>templating with Twig</li>
             <li>UI, CSS and basic JS effects with Twitter Bootstrap (version 3)</li>
-            <li>and it includes jQuery for your JavaScript news</li>
+            <li>and it includes jQuery for your JavaScript things</li>
+            <li>plus http://summernote.org/ for the wysiwyg</li>
         </ul>
     </p>
+    <div id=\"summernote\">
+
+    </div>
+    <button class=\"btn btn-block btn-primary\" id=\"summernoteSubmit\">SEND!</button>
+    <div id=\"preview\"></div>
 ";
     }
 
@@ -86,8 +92,14 @@ class __TwigTemplate_4d8c2653fb1bda2c42eff84a9d10d5b169ddde231ef4634d19e58b64938
 /*             <li>it handles database ORM with RedBeanPHP,</li>*/
 /*             <li>templating with Twig</li>*/
 /*             <li>UI, CSS and basic JS effects with Twitter Bootstrap (version 3)</li>*/
-/*             <li>and it includes jQuery for your JavaScript news</li>*/
+/*             <li>and it includes jQuery for your JavaScript things</li>*/
+/*             <li>plus http://summernote.org/ for the wysiwyg</li>*/
 /*         </ul>*/
 /*     </p>*/
+/*     <div id="summernote">*/
+/* */
+/*     </div>*/
+/*     <button class="btn btn-block btn-primary" id="summernoteSubmit">SEND!</button>*/
+/*     <div id="preview"></div>*/
 /* {% endblock content %}*/
 /* */

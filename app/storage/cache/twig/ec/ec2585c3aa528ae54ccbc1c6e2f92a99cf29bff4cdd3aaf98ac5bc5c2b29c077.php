@@ -35,7 +35,7 @@ class __TwigTemplate_a3ae73480becb2b22f5efaff7c142a0fed99ab63082bd2284ed404e9bab
                 <img alt=\"Brand\" src=\"";
         // line 17
         echo twig_escape_filter($this->env, (isset($context["assetUri"]) ? $context["assetUri"] : null), "html", null, true);
-        echo "/images/sys/favicon.png\" style=\"width: 27px; margin-top: -4px;\">
+        echo "/images/sys/favicon.png\" style=\"width: 49px; margin-top: -13px;\">
             </a>
         </div>
 
@@ -112,7 +112,7 @@ class __TwigTemplate_a3ae73480becb2b22f5efaff7c142a0fed99ab63082bd2284ed404e9bab
 /*                 <span class="icon-bar"></span>*/
 /*             </button>*/
 /*             <a class="navbar-brand" href="#">*/
-/*                 <img alt="Brand" src="{{ assetUri }}/images/sys/favicon.png" style="width: 27px; margin-top: -4px;">*/
+/*                 <img alt="Brand" src="{{ assetUri }}/images/sys/favicon.png" style="width: 49px; margin-top: -13px;">*/
 /*             </a>*/
 /*         </div>*/
 /* */
