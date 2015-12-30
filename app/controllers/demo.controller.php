@@ -24,8 +24,23 @@ $app->get('/', function () use ($app) {
         array('desc' => 'Pagoda Box App Cafe', 'url' => 'https://pagodabox.com/cafe/vanting/redslim'),
     );
 
+    $options['test'] = $app->redmars['cryptoKey'];
+
     $app->view()->appendData($options);
     $app->render('demo.html.twig');
 })->name('home');
 
+$app->post('/encrypt/', function () use ($app) {
+    $word = $app->request()->post('word');
+    $crypto = new Cryptography();
+    $crypto->SetCryptoKey($app->redmars['cryptoKey']);
+    echo $crypto->Encrypt($word,"qwertqwertqwertqwertqwertqwert12");
+});
+
+$app->post('/decrypt/', function () use ($app) {
+    $word = $app->request()->post('word');
+    $crypto = new Cryptography();
+    $crypto->SetCryptoKey($app->redmars['cryptoKey']);
+    echo $crypto->Decrypt($word,"qwertqwertqwertqwertqwertqwert12");
+});
 ?>

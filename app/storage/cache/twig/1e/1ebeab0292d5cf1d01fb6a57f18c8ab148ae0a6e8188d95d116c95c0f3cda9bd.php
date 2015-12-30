@@ -47,7 +47,26 @@ class __TwigTemplate_4d8c2653fb1bda2c42eff84a9d10d5b169ddde231ef4634d19e58b64938
             <li>UI, CSS and basic JS effects with Twitter Bootstrap (version 3)</li>
             <li>and it includes jQuery for your JavaScript things</li>
             <li>plus http://summernote.org/ for the wysiwyg</li>
+            <li>templated with: http://bootstrap-live-customizer.com/</li>
+            <li>Crypting from: http://www.codingvision.net/security/c-php-compatible-encryption-aes256</li>
         </ul>
+    </p>
+    <p>";
+        // line 27
+        echo twig_escape_filter($this->env, (isset($context["test"]) ? $context["test"] : null), "html", null, true);
+        echo "
+        <h3>Encode</h3>
+        <form action=\"encrypt\" method=\"post\">
+            <input name=\"word\">
+            <input type=\"submit\">
+        </form>
+    </p>
+    <p>
+    <h3>Decode</h3>
+    <form action=\"decrypt\" method=\"post\">
+        <input name=\"word\">
+        <input type=\"submit\">
+    </form>
     </p>
     <div id=\"summernote\">
 
@@ -69,7 +88,7 @@ class __TwigTemplate_4d8c2653fb1bda2c42eff84a9d10d5b169ddde231ef4634d19e58b64938
 
     public function getDebugInfo()
     {
-        return array (  31 => 4,  28 => 3,  11 => 1,);
+        return array (  56 => 27,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "base/base.html.twig" %}*/
@@ -94,7 +113,23 @@ class __TwigTemplate_4d8c2653fb1bda2c42eff84a9d10d5b169ddde231ef4634d19e58b64938
 /*             <li>UI, CSS and basic JS effects with Twitter Bootstrap (version 3)</li>*/
 /*             <li>and it includes jQuery for your JavaScript things</li>*/
 /*             <li>plus http://summernote.org/ for the wysiwyg</li>*/
+/*             <li>templated with: http://bootstrap-live-customizer.com/</li>*/
+/*             <li>Crypting from: http://www.codingvision.net/security/c-php-compatible-encryption-aes256</li>*/
 /*         </ul>*/
+/*     </p>*/
+/*     <p>{{ test }}*/
+/*         <h3>Encode</h3>*/
+/*         <form action="encrypt" method="post">*/
+/*             <input name="word">*/
+/*             <input type="submit">*/
+/*         </form>*/
+/*     </p>*/
+/*     <p>*/
+/*     <h3>Decode</h3>*/
+/*     <form action="decrypt" method="post">*/
+/*         <input name="word">*/
+/*         <input type="submit">*/
+/*     </form>*/
 /*     </p>*/
 /*     <div id="summernote">*/
 /* */

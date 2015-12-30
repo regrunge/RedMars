@@ -14,8 +14,6 @@ require ROOT . '/app/dbloader.php';
 
 // Instantiate application
 $app = new \Slim\Slim(require_once ROOT . '/app/config/app.php');
-$app->setName('RedSlim');
-
 
 // For native PHP session
 session_cache_limiter(false);
